@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+article {
+    flex: 2;
+}
+
+aside {
+    flex: 1;
+}
+
+header, footer {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
